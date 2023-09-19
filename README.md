@@ -60,3 +60,13 @@ The download utility is a CLI tool that takes a patient id in argument 1
 day number in argument 2. The data is downloaded from the API in JSON format.
 
 Example usage: `./download 12345 11`
+
+# Docker Usage
+
+Build image using `docker compose build`
+Run compose using `docker compose up`
+
+All programs are available in the `/app` directory. Sample files are available
+in the `/app/data` directory.
+
+Open a terminal with `docker exec -it interview /bin/sh`
